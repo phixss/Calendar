@@ -12,8 +12,9 @@ document.addEventListener('DOMContentLoaded', function() {
     let selectedDate = null;
 
     const events = {
-        '2026-6-8': [{time: '', text: 'Term 1: Teachers Contract Signing/Awarding of Load'}],
+        '2026-6-8': [{time: 'Term 1', text: 'Teachers Contract Signing/Awarding of Load'}],
         '2026-6-9': [{time: '1st day', text: 'Orientation: Parents, Guardians, Learners, Distributions of Learning Materials'}],
+        '2026-6-10': [{time: '2nd day', text: 'Orientation: Parents, Guardians, Learners, Distributions of Learning Materials'}],
         '2026-6-11': [{time: '3rd day', text: 'Orientation: Parents, Guardians, Learners, Distributions of Learning Materials'}],
         '2026-6-12': [{time: 'Regular Holiday', text: 'Independence Day'}],
         '2026-7-15': [{time: 'Term 1', text: 'First Summative Test'}],
@@ -21,8 +22,11 @@ document.addEventListener('DOMContentLoaded', function() {
         '2026-8-20': [{time: '', text: 'Teachers General meeting (preparation for Term 1 Exams)'}],
         '2026-8-31': [{time: 'Regular Holiday', text: 'National Heroes Day'}],
         '2026-9-1': [{time: 'Term 1', text: 'Examination'}],
+        '2026-9-2': [{time: 'Term 1', text: 'Examination'}],
         '2026-9-3': [{time: 'Term 1', text: 'Examination'}],
-        '2026-9-3': [{time: 'Term 1', text: 'Examination'}],
+        '2026-9-4': [{time: 'until 14', text: 'Co-Extra-Curricular Activities, Remediation, Computation of Grades, Accomplishment of School Forms'}],
+        '2026-9-10': [{time: 'Term 2', text: 'Teachers Contract Signing/Awarding of Load'}],
+        '2026-9-15': [{time: '', text: 'Deadline: Submission of E-CR Term 1'}, {time: '', text: 'End of Term 1'}],
     };
 
     function renderCalendar() {
